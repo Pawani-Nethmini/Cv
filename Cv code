@@ -1,0 +1,163 @@
+\documentclass[a4paper,10pt]{article}
+
+% --- Compact Page Layout ---
+\usepackage[
+  left=0.65in,
+  right=0.65in,
+  top=0.65in,
+  bottom=0.65in
+]{geometry}
+
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{xcolor}
+\usepackage{fontawesome5}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+% Olive Green Color
+\definecolor{verdeolivo}{RGB}{85,107,47}
+
+% --- Tighter Section Spacing ---
+\titlespacing*{\section}{0pt}{10pt}{6pt}
+\titlespacing*{\subsection}{0pt}{6pt}{4pt}
+
+% --- Smaller Section Titles ---
+\titleformat{\section}
+  {\large\bfseries\color{verdeolivo}}
+  {}{0em}{}[\titlerule]
+
+\titleformat{\subsection}[runin]
+  {\bfseries\color{verdeolivo}}
+  {}{0em}{}
+
+% --- Reduce Item Spacing ---
+\setlist[itemize]{itemsep=2pt, topsep=2pt}
+
+
+\begin{document}
+\pagestyle{empty}
+
+% LEFT SIDE (Name + Title + Contact)
+\noindent
+\begin{minipage}{0.81\textwidth}
+{\Huge \textbf{Pawani Hettiarachchi}}\\[1mm]
+{\large \textbf{Computer Science Undergraduate}}\\[3mm]
+\faIcon{linkedin}~\href{https://www.linkedin.com/in/pawani-hettiarachchi-11b244302/}{Pawani Hettiarachchi} \\
+\faIcon{github}~\href{https://github.com/Pawani-Nethmini}{Pawani-Hettiarachchi} \\
+\faIcon{phone}~\href{https://wa.me/94767127030}{+94 74 225 6116} \\
+\faIcon{envelope}~\href{mailto:kpiyumanthi@gmail.com}{pawaninethmini969@gmail.com}\\
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+\setlength{\fboxsep}{0pt} % removes inner padding
+\fcolorbox{verdeolivo}{white}{
+    \includegraphics[width=3cm,trim=1pt 1pt 1pt 1pt,clip]{professional photo.jpeg}
+}
+\end{minipage}
+
+
+\space
+\section*{\faIcon{user} Professional Profile}
+I am a BSc (Hons) Computer Science undergraduate with a strong grasp of web design, programming and computer concepts, who is driven and meticulous. I am passionate about coming up with new ideas and combining my technical expertise with my creativity to create effective and easy to use systems. With experience working on team projects and volunteering. I bring strong problem-solving skills, adaptability, and a constant desire to learn and grow in the tech industry. 
+
+\section*{\faIcon{graduation-cap} Education}
+
+\subsection*{BSc (Hons) Computer Science undergraduate  \hfill(Sep 2024 - Present)}
+\textit\\
+University of Westminster, UK\\
+1st year(120 credits): \\
+Software Development I (Python), Mathematics for Computing, Computer Systems Fundamentals, Software Development II (Java), Web Design and Development, Trends in Computer Science.\\
+2nd year:\\
+Object Oriented Programming, Database System, Software Development Group Project, Advanced Client-side Development, Client-Server Architectures, Algorithms: Theory, Design and Implementation.
+
+\subsection*{G.C.E. Advanced Level \hfill(2023/24)} 
+\textit\\
+Sivali Central College, Ratnapura\\
+1B 1C 1S (Physical Science)
+
+\subsection*{G.C.E. Ordinary Level \hfill(2020)}
+\textit\\
+Sivali Central College, Ratnapura\\
+9As
+
+
+\section*{\faIcon{code} Projects}
+\subsection*{SDGP (Group)} 
+
+\subsection*{Portfolio Website (individual) - HTTML, CSS \hfill Oct 2025}    
+\textit\\
+A personal portfolio designed to showcase my skills and projects.
+
+\subsection*{Starbucks Website Design (individual) - HTML, CSS and JavaScript \hfill Jul 2025 - Aug 2025} 
+\textit\\
+A responsive and interactive Starbucks landing page.
+
+\subsection*{Airport Data Analysis System (individual) - Python \hfill May 2025}  
+\textit\\
+A python tool to analyze and visualize air traffic departure data from European airports.
+
+\subsection*{Traffic Data Analysis System (Individual) - Python \hfill Nov 2024 - Dec 2024} 
+\textit\\
+A python project that performs data validation, processing and analysis on traffic survey data sets.
+
+\subsection*{Life Below Water(Group) - HTML and CSS \hfill Feb 2025 - March}
+\textit\\
+A collaborative website project promoting SDG awareness.
+
+\section*{\faHandsHelping \; Volunteering Experiences}
+\subsection*{IEEE Computer Society SBC of IIT } 
+\textit\\
+\textbf{commit.dev version 4} (Industry Outreach Team Member) \hfill Aug 2025 - Sep 2025\\
+Engaged companies for sponsorships through direct outreach to HR and marketing departments.
+\subsection*{IEEE Computational Intelligence Society of IIT } 
+\textit\\
+\textbf{ConnectX} (Event Vice Chair)\hfill Sep 2025 - Oct 2025\\
+Assisted in planning and coordinating two days  industry visit series, ensuring smooth event flow and strong engagement with industry partners.
+
+
+\textbf{PRESTIGE} (Membership Development Team Member) \hfill Feb 2025 - June 2025\\
+Assisted in coordinating workshops and events that brought together industry leaders and AI/ML enthusiasts to explore cutting-edge advancement and emerging trends.
+\subsection*{IEEE Women In Engineering Affinty Group of IIT } 
+\textit\\
+\textbf{AdaptIQ} (Delegates Handling Team Member) \hfill  Aug 2025 - Oct 2025\\
+Managed participant registration, guidance, and support, ensuring smooth 24-hour ideathon event flow and a positive experience for all delegates.
+
+\textbf{SyncUP} (Industry Outreach Team Member) \hfill June 2025 - Aug 2025\\
+Assisted in company outreach for a two day mentor mentee event.
+\subsection*{Informatics Institute of technology (IIT) } 
+\textit\\
+\textbf{CuttingEdge '25} (Project Showcasing Team Member) \hfill  June 2025\\
+supported the showcasing of student and tech projects, guilding visitors and helping maintain an organized exhibition environment.
+\subsection*{Student Union of IIT } 
+\textit\\
+\textbf{StageCraft 25'} (Logistic Team member) \hfill May 2025\\
+Managed logistics tasks and supervised the Unbeatable team, ensuring timely execution of event activities and efficient backstage operations.
+
+
+\section*{\faIcon{certificate} Certifications}
+\textbf{ADVANCED TIER, Coderally 6.0 Hackathon}\\
+Competed as part of the team Hacktics-CR 138, to the Advanced Tier based on strong performance during selection week, demonstrating technical skills, teamwork, and innovative problem-solving under competitive conditions.\\\\
+\textbf{UoW - Problem-Solving International Hackathon 2025}\\
+Competed as part of team, applying problem-solving, critical thinking, and collaboration in an international hackathon setting.\\\\
+\textbf{SHErlock 2.0}\\
+Competed in a team-based problem-solving challange focused on analytical thinking and innovation as a member of team Hopkins.
+
+
+\section*{\faIcon{users} Extra Curricular Activities}
+• Selected for Secretary Lead of the IEEE Women in Engineering Affinity Group of IIT \\
+• Member of IEEE Student Branch of IIT - (2024-Present)\\
+• Member of IEEE Computer Society of IIT (2024-Present)\\
+• Member of IEEE Computational Intelligence Society of IIT - (2024-Present)\\
+• Member of the Leo Club of IIT - (2024-2025)\\
+• Member of the Rotaract Club of IIT - (2024-2025)\\
+• Volunteer member of Sports Council of IIT - (2025-2026)\\
+• Vice President of the Science Club of Sivali Central College -  (2022-2023)\\
+• Member of the Junior Prefect Board of Sivali Central College - (2019-2020)\\
+• Member of the Sports Club of Sivali Central College - (2018-2022)\\
+
+\section*{\faIcon{thumbs-up} References}
+For reference contact Jane Smith\\ \textbf{\faIcon{linkedin} LinkedIn:} \href{https://www.linkedin.com/in/jane-smith/}{jane-smith}
+
+\end{document}
